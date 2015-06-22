@@ -94,7 +94,7 @@ NSString const* kFlickrKey = @"e34f81277cad3b042a4ed0fb3ad92850";
 	// Protect the Persistent Store
 	NSDictionary *storeOptions = @{NSPersistentStoreFileProtectionKey  : NSFileProtectionComplete};
 
-	if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
+	if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:storeOptions error:&error]) {
         // Report any error we got.
         NSMutableDictionary *dict = [NSMutableDictionary dictionary];
         dict[NSLocalizedDescriptionKey] = @"Failed to initialize the application's saved data";

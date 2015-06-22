@@ -33,7 +33,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1SO-PJ-BJH">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Placeholder.001" translatesAutoresizingMaskIntoConstraints="NO" id="1SO-PJ-BJH">
                                                     <rect key="frame" x="0.0" y="20" width="500" height="480"/>
                                                 </imageView>
                                             </subviews>
@@ -98,4 +98,7 @@
             <point key="canvasLocation" x="589" y="360"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Placeholder.001" width="1024" height="768"/>
+    </resources>
 </document>

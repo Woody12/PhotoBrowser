@@ -50,6 +50,7 @@ NSInteger const kActivityIndicatorTag = 100;
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
 	
 	[self configureCustomView];
+	[self refreshPhoto];
 	
 }
 
@@ -101,6 +102,12 @@ NSInteger const kActivityIndicatorTag = 100;
 
 - (IBAction)refreshButton:(id)sender {
 
+	[self refreshPhoto];
+	
+}
+
+- (void) refreshPhoto {
+	
 	// Display spinner if table has no row and there's connection
 	if ((_photoCollectionView.numberOfSections == 0) && ([Connectivity checkConnectivity])){
 		
@@ -115,7 +122,6 @@ NSInteger const kActivityIndicatorTag = 100;
 	}
 	
 	[self updateData];
-	
 	
 }
 
@@ -218,7 +224,6 @@ NSInteger const kActivityIndicatorTag = 100;
 	
 }
 
-#pragma mark - Fetched Results Controller
 - (NSFetchedResultsController *)fetchedResultsController {
 	
 	if (_fetchedResultsController) {
