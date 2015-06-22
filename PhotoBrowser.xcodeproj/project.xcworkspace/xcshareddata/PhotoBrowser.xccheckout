@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD29055C-3E2F-4A7A-A512-BE643CAD8ABA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhotoBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AAD40B130632BC772DCD4BB8C296C320435C08DD</key>
+		<string>https://github.com/Woody12/PhotoBrowser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PhotoBrowser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AAD40B130632BC772DCD4BB8C296C320435C08DD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Woody12/PhotoBrowser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AAD40B130632BC772DCD4BB8C296C320435C08DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AAD40B130632BC772DCD4BB8C296C320435C08DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhotoBrowser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
